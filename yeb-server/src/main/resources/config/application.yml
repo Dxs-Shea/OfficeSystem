@@ -22,3 +22,9 @@ mybatis-plus:
 logging:
   level:
     com.dxs.server.mapper: debug
+
+jwt:
+  tokenHeader: Authorization
+  secret: yeb-secret
+  expiration: 604800
+  tokenHead: Bearer
